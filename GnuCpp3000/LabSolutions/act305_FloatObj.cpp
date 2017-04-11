@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdio>
 
 using namespace std;
 
@@ -23,6 +24,8 @@ class FloatObj {
 class FloatObj2 : public FloatObj {
  public:
   FloatObj2() : FloatObj() {}
+  
+  FloatObj2(const FloatObj2& ref) : FloatObj((FloatObj&)ref) {}
 
   FloatObj2(float value = 221) : FloatObj(value) {}
 
@@ -59,3 +62,4 @@ int main(int argc, char** argv) {
 
   return 0;
 }
+
