@@ -1,6 +1,5 @@
-link = ld
 cpp = c++
-opts = -std=c++14 -I../Headers/
+opts = -std=c++11 -I../Headers/
 
 all: main.run
 

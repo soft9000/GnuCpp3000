@@ -1,4 +1,4 @@
-presto = c++ --std=c++14 -I../Headers
+presto = c++ --std=c++11 -I../Headers
 
 all: main.run  
 

@@ -1,10 +1,9 @@
-link = ld
 cpp = c++
 base01 = ../../ShoppingCart01
 base03 = ../../ShoppingCart03
 code01 = $(base01)/LabSolutions
 code03 = $(base03)/LabSolutions
-opts = -std=c++14 -I../Headers/ -I$(base01)/Headers -I$(base03)/Headers
+opts = -std=c++11 -I../Headers/ -I$(base01)/Headers -I$(base03)/Headers
 
 all: clean main.run
 
