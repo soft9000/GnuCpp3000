@@ -45,7 +45,6 @@ class FrankenCart : public AbsUserCart {
       items = new int[tot];
       memcpy(items, pszArray, tot * sizeof(int));
     }
-    delete [] pszArray; // Prevent "Memory Leak"
     count = tot;
     return TROOL::opOk;
   }

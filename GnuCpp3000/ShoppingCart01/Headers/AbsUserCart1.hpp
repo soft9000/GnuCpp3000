@@ -31,10 +31,6 @@ class AbsUserCart {
     items = pszArray;
     return count++;
   }
-  
-  virtual ~AbsUserCart() {
-	  delete [] items;
-  }
 };
 
 }  // namespace ends
