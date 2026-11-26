@@ -19,7 +19,8 @@ class AbsBase {
 
 class Base : public AbsBase {
  public:
-  std::__cxx11::string name;
+  //std::__cxx11::string name;
+  std::string name;
   virtual AbsBase& clone(const AbsBase& ref);
 };
 }
